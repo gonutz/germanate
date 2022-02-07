@@ -1,7 +1,7 @@
 Trying to write German on an English keyboard proves to be hard.
 Entering umlauts like ä and ß is not easy.
 
-This program will take insert umlauts in your clipboard.
+This program will insert umlauts in your clipboard.
 You can copy your text, run this program, then paste your German text.
 
 Replacements done by this program:
