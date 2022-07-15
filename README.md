@@ -6,18 +6,18 @@ You can copy your text, run this program, then paste your German text.
 
 Replacements done by this program:
 
-	Ae  - Ä
-	ae  - ä
-	Oe  - Ö
-	oe  - ö
-	Ue  - Ü
-	ue  - ü
-	sss - ß
+	AE - Ä
+	aE - ä
+	OE - Ö
+	oE - ö
+	UE - Ü
+	uE - ü
+	sS - ß
 
-Note that you need 3 s for ß. While it is natural to write ae, oe and ue,
-it is usually ss that is being replaced with ß. But ss is also valid in
-German so if we replace all ss with ß that would be wrong. Hence this
-quirk.
+Note that the replacement only happens when the second letter is upper-case.
+Except in abbreviations, this should rarely happen in regular text. We cannot
+use the more common way of writing for example `ue` for `ü` because words like
+`neue` would turn into `neü` which is not what we want.
 
 # Installation
 
